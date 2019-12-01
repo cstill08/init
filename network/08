@@ -1,0 +1,2 @@
+whois 54.192.98.142 | sed -n 20p | awk '{print $1}'
+Amazon
