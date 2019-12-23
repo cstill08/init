@@ -1,2 +1,2 @@
-nslookup &(ipconfig getifaddr en0) | grep "name =" | awk '{print $4}'
+nslookup $(ipconfig getifaddr en0) | grep "name =" | awk '{print $4}'
 ox-l3.21-school.ru.
